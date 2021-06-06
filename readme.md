@@ -3,11 +3,11 @@
 
 ## Installing
 Install it with your favourite zsh package manager, or clone it directly to your
-`$ZSH_CUSTOM/plugins` directory with git, and add `aur-install` to the plugins
+`$ZSH_CUSTOM/plugins` directory with git, and add `zsh-aur-install` to the plugins
 array in your `.zshrc` file:
 
 ```zsh
-plugins=(... aur-install)
+plugins=(... zsh-aur-install)
 ```
 
 ## Usage
