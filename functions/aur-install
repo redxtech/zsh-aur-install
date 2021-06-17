@@ -3,7 +3,7 @@
 # function to clone a package from the AUR and install it with makepkg
 aur-install () {
     # make sure git is installed
-    if (( $+commands[git] )); then
+    if (( ! $+commands[git] )); then
         echo 'git is not installed, you should "pacman -S git" first.'
         return 1
     fi
